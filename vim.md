@@ -1,44 +1,10 @@
 My Vim
 ===================
 
-Ctrl + Shift + ->
-Se mueve a la pestanna de la derecha
-
-Ctrl + Shift + <-
-Se mueve a la pestanna de la izq
-
-Ctrl + n
-Abre o ciera el explorador de archivos
-
-Ctrl + del
-Cierra la pestanna sin guardar cambios
-
-Ctrl + h
-Mueve el cursor a la ventana inmediata a la izq
-
-Ctrl + l
-Mueve el cursor a la ventana inmediata a la derecha
-
-u
-Undo
-
-Ctrl + R
-Redo
-
-Fn + f4
-Abre la ventana de etiquetas (:TagbarToggle)
-
-, ss (:SaveSession)
-Guarda la sesion actual
-
-, so (:OpenSession)
-Carga la sesion actual
-
-*
-Se le aprieta arriba a un texto, y si lo sigues apretando va a navegar a todas las ocurrencias de este texto en el fichero actual
-
-#
-Es lo mismo pero para atras
+a) u -> Undo
+b) Ctrl + R -> Redo
+c) * -> Se le aprieta arriba a un texto, y si lo sigues apretando va a navegar a todas las ocurrencias de este texto en el fichero actual
+d) # -> Es lo mismo pero para atras
 
 Decargar el vimplug
 --------------------
@@ -46,16 +12,16 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 Navegacion
 --------------------------------
-hjkl -> Desplazarse en el codigo
-w -> navega al inicio de la proxima palabra a la derecha
-b -> navega al inicio de la proxima palabra a la izq
-e -> navega al final de la proxima palabra a la derecha
-0 -> navega al inicio de la linea
-$ -> navega al final de la linea
-Shift + { -> navega hacia el siguiente parrafo
-Shift + } -> navega hacia el parrafo anterior
-Ctrl + d -> navegar a la ultima linea del fichero
-Ctrl + w +w -> navega entre las ventanas abiertas en split
+  hjkl -> Desplazarse en el codigo
+  w -> navega al inicio de la proxima palabra a la derecha
+  b -> navega al inicio de la proxima palabra a la izq
+  e -> navega al final de la proxima palabra a la derecha
+  0 -> navega al inicio de la linea
+  $ -> navega al final de la linea
+  Shift + { -> navega hacia el siguiente parrafo
+  Shift + } -> navega hacia el parrafo anterior
+  Ctrl + d -> navegar a la ultima linea del fichero
+  Ctrl + w +w -> navega entre las ventanas abiertas en split
 
 Insercion
 ------------
