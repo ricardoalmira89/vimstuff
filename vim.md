@@ -12,6 +12,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 Navegacion
 --------------------------------
+  
   hjkl -> Desplazarse en el codigo
   w -> navega al inicio de la proxima palabra a la derecha
   b -> navega al inicio de la proxima palabra a la izq
