@@ -60,13 +60,16 @@ a) git add/ filename.php -> Esta accion se realiza parandose encima del fichero 
 b) Virar todo para atras un fichero , se realiza con Shift + x.
 c) parado encima de un fichero con cambios se aprieta 'p' y luego '=' y se mostraran los cambios como un arbol ahi mismo.
 d) parado encima de un fichero con cambios se aprieta 'dd' y sale una ventana para comparar los cambios. Si se presiona 'dp' hace algo parecido
+e) git commit -> pararse arriba de un fichero y apretar 'cc'
 
 Git (gv)
+-----------------
 gv permite navegar en el repo.
 a) Mostrar la ventana principal con todos los commits -> :GV
 b) Mostrar el historial de un fichero. Pararse en el fichero y luego :GV?
 
 Terminal
+----------------
 a) Abrir un terminal pequenno debajo -> Ctrl + t
 b) Abrir un terminal grande a la derecha -> Ctrl + y
 
