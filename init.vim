@@ -58,6 +58,10 @@ Plug 'sirver/ultisnips'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch' : 'release'}
 
+"Languajes
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+
 call plug#end()
 
 let mapleader = " "
@@ -139,7 +143,8 @@ nnoremap <c-y> :vsplit<CR>:ter<CR>
 tnoremap <Esc> <C-\><C-n><C-w><C-w>
 
 "Fuzzy
-nnoremap <C-p> :FuzzyOpen<CR>
+
+nnoremap <C-p> :Files<CR>
 
 "NerdTree
 nnoremap <leader>1 :NERDTreeToggle <CR>
@@ -149,4 +154,15 @@ let g:NERDTreeDirArrowCollapsible = '*'
 "Fugitive
 "Abrir la ventana de git
 nnoremap <leader>g :Git<CR>
+
+"LANGUAJES SUPPORT
+"======================
+
+" Enable Flutter menu
+"call FlutterMenu()
+nnoremap <leader>fa :FlutterRun<cr>
+nnoremap <leader>fq :FlutterQuit<cr>
+nnoremap <leader>fr :FlutterHotReload<cr>
+nnoremap <leader>fR :FlutterHotRestart<cr>
+nnoremap <leader>fD :FlutterVisualDebug<cr>
 
