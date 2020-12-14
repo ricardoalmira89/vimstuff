@@ -151,6 +151,9 @@ nnoremap <leader>1 :NERDTreeToggle <CR>
 let g:NERDTreeDirArrowExpandable = '->'
 let g:NERDTreeDirArrowCollapsible = '*'
 
+"Coc
+so ~/.config/nvim/coc.vim
+
 "Fugitive
 "Abrir la ventana de git
 nnoremap <leader>g :Git<CR>
