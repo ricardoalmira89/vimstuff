@@ -142,9 +142,7 @@ nnoremap <c-y> :vsplit<CR>:ter<CR>
 "Salir al modo terminal con Esc
 tnoremap <Esc> <C-\><C-n><C-w><C-w>
 
-"Fuzzy
 
-nnoremap <C-p> :Files<CR>
 
 "NerdTree
 nnoremap <leader>1 :NERDTreeToggle <CR>
@@ -163,9 +161,13 @@ nnoremap <leader>g :Git<CR>
 
 " Enable Flutter menu
 "call FlutterMenu()
-nnoremap <leader>fa :FlutterRun<cr>
-nnoremap <leader>fq :FlutterQuit<cr>
-nnoremap <leader>fr :FlutterHotReload<cr>
-nnoremap <leader>fR :FlutterHotRestart<cr>
-nnoremap <leader>fD :FlutterVisualDebug<cr>
+"nnoremap <leader>fa :FlutterRun<cr>
+"nnoremap <leader>fq :FlutterQuit<cr>
+"nnoremap <leader>fr :FlutterHotReload<cr>
+"nnoremap <leader>fR :FlutterHotRestart<cr>
+"nnoremap <leader>fD :FlutterVisualDebug<cr>
 
+"Fuzzy
+nnoremap <C-p> :Files<CR>
+nnoremap <C-f> :BLines<CR>
+nnoremap <leader>f :Ag<CR>
