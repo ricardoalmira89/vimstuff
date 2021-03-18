@@ -63,6 +63,9 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
 Plug 'nelsyeung/twig.vim'
 
+"Formatting
+Plug 'Chiel92/vim-autoformat'
+
 call plug#end()
 
 let mapleader = " "
@@ -109,7 +112,7 @@ noremap <leader>w :w<CR>
 noremap <silent> <right> :vertical resize -5 <CR>
 noremap <silent> <left> :vertical resize +5  <CR>
 noremap <silent> <up> :resize +5 <CR>
-noremap <silent> <down> :resize -5<CR> 
+noremap <silent> <down> :resize -5<CR>
 
 "Moverse al buffer siguiente
 nnoremap <leader>k :bnext <CR>
@@ -172,3 +175,14 @@ nnoremap <leader>g :Git<CR>
 nnoremap <C-p> :Files<CR>
 nnoremap <C-f> :BLines<CR>
 nnoremap <leader>f :Ag<CR>
+
+"Autoformat
+noremap <F3> :Autoformat<CR>
+
+""" Formatear el codigo siempre que se guarde el fichero
+au BufWrite * :Autoformat
+
+
+
+
+
