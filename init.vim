@@ -61,6 +61,7 @@ Plug 'neoclide/coc.nvim', {'branch' : 'release'}
 "Languajes
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
+Plug 'nelsyeung/twig.vim'
 
 call plug#end()
 

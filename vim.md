@@ -83,3 +83,9 @@ Abre un terminal a la derecha con el mysql abierto
 Cuando abre el vim, automaticamente hace un split con un terminal debajo
 (en el init.vim)
 autocmd VimEnter * ++nested split term://bash 
+
+
+Formato
+--------
+https://github.com/Chiel92/vim-autoformat
+
